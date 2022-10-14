@@ -11,6 +11,8 @@
 		0C773FA828F8ECB600852B50 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0C773FA728F8ECB600852B50 /* ContentView.swift */; };
 		0C773FAA28F8ECB700852B50 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 0C773FA928F8ECB700852B50 /* Assets.xcassets */; };
 		0C773FAD28F8ECB700852B50 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 0C773FAC28F8ECB700852B50 /* Preview Assets.xcassets */; };
+		0C773FB428F8EF6700852B50 /* ScannerViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0C773FB328F8EF6700852B50 /* ScannerViewModel.swift */; };
+		0C773FB628F8F0F000852B50 /* SecondView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0C773FB528F8F0F000852B50 /* SecondView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -19,6 +21,8 @@
 		0C773FA728F8ECB600852B50 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		0C773FA928F8ECB700852B50 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		0C773FAC28F8ECB700852B50 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		0C773FB328F8EF6700852B50 /* ScannerViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ScannerViewModel.swift; sourceTree = "<group>"; };
+		0C773FB528F8F0F000852B50 /* SecondView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SecondView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -53,6 +57,8 @@
 			children = (
 				0C773FA528F8ECB600852B50 /* QRcodeSampleApp.swift */,
 				0C773FA728F8ECB600852B50 /* ContentView.swift */,
+				0C773FB528F8F0F000852B50 /* SecondView.swift */,
+				0C773FB328F8EF6700852B50 /* ScannerViewModel.swift */,
 				0C773FA928F8ECB700852B50 /* Assets.xcassets */,
 				0C773FAB28F8ECB700852B50 /* Preview Content */,
 			);
@@ -138,6 +144,8 @@
 			buildActionMask = 2147483647;
 			files = (
 				0C773FA828F8ECB600852B50 /* ContentView.swift in Sources */,
+				0C773FB428F8EF6700852B50 /* ScannerViewModel.swift in Sources */,
+				0C773FB628F8F0F000852B50 /* SecondView.swift in Sources */,
 				0C773FA628F8ECB600852B50 /* QRcodeSampleApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -270,6 +278,7 @@
 				DEVELOPMENT_TEAM = 44C462XR3H;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_NSCameraUsageDescription = "プロフィール画像を取る為に許可が必要です。";
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
@@ -299,6 +308,7 @@
 				DEVELOPMENT_TEAM = 44C462XR3H;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_NSCameraUsageDescription = "プロフィール画像を取る為に許可が必要です。";
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
