@@ -18,9 +18,8 @@ struct SecondView: View {
 
 struct SecondView_Previews: PreviewProvider {
     
-    @ObservedObject var viewModel : ScannerViewModel
     
     static var previews: some View {
-        SecondView(viewModel: viewModel)
+        SecondView(viewModel: ScannerViewModel())
     }
 }

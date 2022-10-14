@@ -30,7 +30,7 @@ struct ContentView: View {
                             Image(systemName: "camera")
                         }
                         .fullScreenCover(isPresented: $viewModel.isShowing) {
-                          //  SecondView(viewModel: viewModel)
+                          SecondView(viewModel: viewModel)
                         }
             
         }
