@@ -16,9 +16,9 @@ struct SecondView: View {
         
        ZStack {
             // QRコード読み取りView
-//            QrCodeScannerView()
-//                .found(r: self.viewModel.onFoundQrCode)
-//                .interval(delay: self.viewModel.scanInterval)
+            QrCodeScannerView()
+                .found(r: self.viewModel.onFoundQrCode)
+                .interval(delay: self.viewModel.scanInterval)
             
             VStack {
                 VStack {
