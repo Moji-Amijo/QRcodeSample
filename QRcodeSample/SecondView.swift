@@ -14,7 +14,7 @@ struct SecondView: View {
     var body: some View {
         Text("SecondView")
         
-       ZStack {
+        ZStack {
             // QRコード読み取りView
             QrCodeScannerView()
                 .found(r: self.viewModel.onFoundQrCode)
@@ -37,7 +37,7 @@ struct SecondView: View {
                 .padding(.vertical, 20)
                 Spacer()
             }.padding()
-       }
+        }
     }
 }
 
